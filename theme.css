@@ -1,0 +1,1026 @@
+.theme-dark:root {
+  	/* Headings */
+    --header-primary: #14746f;
+  	/* Replies and stuff */
+    --header-secondary: #67B99A;
+  	/* Normal text */
+    --text-normal: #fff;
+  	/* # & stuff */
+    --text-muted: #14746F;
+  	/* URLs */
+    --text-link: #14746F;
+  	/* Normal channels (every message read and not muted) */
+    --channels-default: #8e9297;
+  	/* All the buttons */
+    --interactive-normal: #fff;
+  	/* When you hover over the buttons */
+    --interactive-hover: #dcddde;
+  	/* When you have clicked on a button */
+    --interactive-active: #fff;
+  	/* Muted channels */
+    --interactive-muted: #4f545c;
+  	/* Main background */
+    --background-primary: #000000;
+    --background-color: #000;
+  	/* Channel list */
+    --background-secondary: #000;
+  	/* Thingy around the whole app on Windows*/
+    --background-tertiary: #000;
+  	/* Accent. Includes the boost icon background, but also the reply line */
+    --background-accent: #036666;
+  	/* Hover thingy with badges and stuff */
+    --background-floating: #469D89;
+  	/* Channel hover thingy */
+    --background-modifier-hover: #248277;
+  	/* When you hold the channel */
+    --background-modifier-active: #036666;
+  	/* Current selected channel */
+    --background-modifier-selected: #036666;;
+  	/* That line at the top of channels */
+    --background-modifier-accent: #14746F;
+  	/* A line that seperates the server name and current channel with the display */
+    --elevation-low: hidden;
+  	/* The shadow from when you hover on a server's icon */
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+  	/* Guild header text shadow. I have no idea where it is lol. If you know where this is, let me know */
+    --guild-header-text-shadow: 0 1px 1px #007aff;
+  	/* The text input field at the bottom */
+    --channeltextarea-background: #272a2e;
+  	/* Server discovery (example?) in server settings. */
+    --activity-card-background: #000;
+  	/* Background in the Installed Plugins boxes */
+    --deprecated-card-bg: #1a1a1a;
+  	/* Toast stuff. Don't touch */
+    --toast-background: var(--background-primary);
+    --toast-header: var(--background-tertiary);
+    --toast-contents: var(--background-secondary);
+    --toast-border: var(--background-tertiary);
+    --toast-box-shadow: rgba(0, 0, 0, .2);;
+    --rs-small-spacing: 2px;
+    --rs-large-spacing: 3px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 10%;
+	/* Online colors */
+    --rs-online-color: #2a9d8f;
+    --rs-idle-color: #f4a261;
+    --rs-dnd-color: #e63946;
+    --rs-offline-color: #6c757d;
+    --rs-streaming-color: #7209b7;
+    --rs-invisible-color: #6c757d;
+}
+
+.theme-light:root {
+  	/* Headings */
+    --header-primary: #78C6A3;
+  	/* Replies and stuff */
+    --header-secondary: #67B99A;
+  	/* Normal text */
+    --text-normal: #000;
+  	/* # & stuff */
+    --text-muted: #78C6A3;
+  	/* URLs */
+    --text-link: #78C6A3;
+  	/* Normal channels (every message read and not muted) */
+    --channels-default: #8e9297;
+  	/* All the buttons */
+    --interactive-normal: #000;
+  	/* When you hover over the buttons */
+    --interactive-hover: #dcddde;
+  	/* When you have clicked on a button */
+    --interactive-active: #000;
+  	/* Muted channels */
+    --interactive-muted: #4f545c;
+  	/* Main background */
+    --background-primary: #fff;
+    --background-color: #fff;
+  	/* Channel list */
+    --background-secondary: #fff;
+  	/* Thingy around the whole app on Windows*/
+    --background-tertiary: #fff;
+  	/* Accent. Includes the boost icon background, but also the reply line */
+    --background-accent: #88D4AB;
+  	/* Hover thingy with badges and stuff */
+    --background-floating: #99E2B4;
+  	/* Channel hover thingy */
+    --background-modifier-hover: #78C6A3;
+  	/* When you hold the channel */
+    --background-modifier-active: #88D4AB;
+  	/* Current selected channel */
+    --background-modifier-selected: #67B99A;
+  	/* That line at the top of channels */
+    --background-modifier-accent: #99E2B4;
+  	/* A line that seperates the server name and current channel with the display */
+    --elevation-low: hidden;
+  	/* The shadow from when you hover on a server's icon */
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+  	/* Guild header text shadow. I have no idea where it is lol. If you know where this is, let me know */
+    --guild-header-text-shadow: 0 1px 1px #007aff;
+  	/* The text input field at the bottom */
+    --channeltextarea-background: #ccc;
+  	/* Server discovery (example?) in server settings. */
+    --activity-card-background: #ccc;
+  	/* Background in the Installed Plugins boxes */
+    --deprecated-card-bg: #fff;
+  	/* Toast stuff. Don't touch */
+    --toast-background: var(--background-primary);
+    --toast-header: var(--background-tertiary);
+    --toast-contents: var(--background-secondary);
+    --toast-border: var(--background-tertiary);
+    --toast-box-shadow: rgba(0, 0, 0, .2);;
+    --rs-small-spacing: 2px;
+    --rs-large-spacing: 3px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 10%;
+	/* Online colors */
+    --rs-online-color: #2a9d8f;
+    --rs-idle-color: #f4a261;
+    --rs-dnd-color: #e63946;
+    --rs-offline-color: #6c757d;
+    --rs-streaming-color: #7209b7;
+    --rs-invisible-color: #6c757d;
+}
+
+/* Friends list */ 
+.theme-dark .peopleColumn-1wMU14 {
+	background-color: #000;
+}
+
+.theme-light .peopleColumn-1wMU14 {
+	background-color: #fff;
+}
+
+/* Buttons */
+.theme-dark .lookFilled-yCfaCM {
+	background-color: #036666 !important;
+}
+
+.theme-light .lookFilled-yCfaCM {
+	background-color: #56AB91 !important;
+}
+
+.theme-dark .lookFilled-yCfaCM  {
+	background-color: #036666 !important;
+}
+
+.theme-light .lookFilled-yCfaCM  {
+	background-color: #56AB91 !important;
+}
+
+.theme-dark .lowSaturationUnderline-Z6CW6z {
+	color: #fff !important
+}
+
+.theme-light .lowSaturationUnderline-Z6CW6z {
+	color: #000 !important
+}
+
+.theme-dark .colorGrey-2iAG-B {
+	background-color: #469D89 !important;
+}
+
+.theme-light .colorGrey-2iAG-B {
+	background-color: #78C6A3 !important;
+}
+
+.colorRed-rQXKgM {
+	/* background-color: #e63946 !important; */
+	border: 1px solid #e63946 !important;
+	color: #fff !important;
+}
+
+.colorRed-rQXKgM.lookFilled-yCfaCM {
+	background-color: #e63946 !important;
+	border: 1px solid #e63946 !important;
+	color: #fff !important;
+}
+
+
+/* No sidebar switcher in appearance (pretty sure I just spelled that wrong lol) */
+.marginTop8-24uXGp > .container-1zDvAE {
+	display: none;
+}
+
+.marginTop8-24uXGp > .container-1zDvAE > .labelRow-2jl9gK {
+  	display: none
+}
+
+
+.marginTop8-24uXGp > .container-1zDvAE > .labelRow-2jl9gK ~.divider-_0um2u {
+	display: none;
+}
+
+/* Thanks message in settings sidebar */
+.theme-dark .side-2ur1Qk::before {
+	content: "Thanks for using Cyanide! To disable it on Powercord, you need Theme Toggler.";
+	font-weight: bold;
+	color: #fff;
+	background-color: #036666;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.theme-light .side-2ur1Qk::before {
+	content: "Thanks for using Cyanide! To disable it on Powercord, you need Theme Toggler.";
+	font-weight: bold;
+	color: #fff;
+	background-color: #99E2B4;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+	/* No thanks message when searching */
+
+.side-2ur1Qk.searchHeaderTabList-3CZMQB::before {
+	display: none !important
+}
+
+/* Powercord badges darker */
+.theme-dark .powercord-badge {
+	color: #14746F !important
+}
+
+.theme-light .powercord-badge {
+	color: #67B99A !important
+}
+
+/* Cyanide note in friends list */
+.theme-dark .peopleColumn-1wMU14::before {
+	content: "Thanks for using Cyanide! If you would like to check the source code, visit cyanide.dantenl.tk/source";
+	font-weight: bold;
+	color: #fff;
+	background-color: #036666;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.theme-light .peopleColumn-1wMU14::before {
+	content: "Thanks for using Cyanide! If you would like to check the source code, visit cyanide.dantenl.tk/source";
+	font-weight: bold;
+	color: #fff;
+	background-color: #99E2B4;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+/* Modified loading text. By ѵοіd#0001 (579731384868798464) */
+/* https://canary.discord.com/channels/538759280057122817/755005803303403570/796193732977885184 */
+/* Not currently working */
+
+.tip-2cgoli, .tipTitle-GL9qAt {
+  font-size: 0px !important;
+}
+.tip-2cgoli .keybind-2jbzrT {
+  display: none;
+}
+.tipTitle-GL9qAt::after {
+  font-size: 16px;
+  content: "Loading Discord"
+}
+.tip-2cgoli::after {
+  font-size: 16px;
+  content: "Thanks for using Cyanide! You're currently runnig on version 1.0";
+}
+
+/* CYANIDE SERVER TWEAKS */
+	/* Cyanide bot tags */
+	.theme-dark .cozyMessage-1DWF9U[data-author-id="928750327996489858"] .username-h_Y3Us::after{
+		content: "CYANIDE BOT";
+		border: 1px solid #14746F;
+		border-radius: 3px;
+		margin-right: 5px;
+		color: #fff;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		line-height: 1.3;
+		margin-left: 4px;
+		font-size: 10px;
+		font-weight: 500;
+	}
+
+	.theme-light .cozyMessage-1DWF9U[data-author-id="928750327996489858"] .username-h_Y3Us::after{
+		content: "CYANIDE BOT";
+		border: 1px solid #88D4AB;
+		border-radius: 3px;
+		margin-right: 5px;
+		color: #000;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		line-height: 1.3;
+		margin-left: 4px;
+		font-size: 10px;
+		font-weight: 500;
+	}
+
+	.theme-dark .compact-2Nkcau[data-author-id="928750327996489858"] .username-h_Y3Us::before {
+		content: "CYANIDE BOT";
+		border: 1px solid #14746F;
+		border-radius: 3px;
+		margin-right: 5px;
+		color: #fff;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		line-height: 1.3;
+		margin-left: 4px;
+		font-size: 10px;
+		font-weight: 500;
+	}
+
+	.theme-light .compact-2Nkcau[data-author-id="928750327996489858"] .username-h_Y3Us::before {
+		content: "CYANIDE BOT";
+		border: 1px solid #88D4AB;
+		border-radius: 3px;
+		margin-right: 5px;
+		color: #000;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		line-height: 1.3;
+		margin-left: 4px;
+		font-size: 10px;
+		font-weight: 500;
+	}
+
+
+	[data-author-id="928750327996489858"] .botTagCozy-3NTBvK {
+		display: none;
+	}
+
+	[data-author-id="928750327996489858"] .botTagCompact-1idyyC {
+		display: none;
+	}
+
+	/* Cyanide check */
+		/* #message-accessories-number has to be updated every time a new embed is created */
+	[data-author-id="928750327996489858"] #message-accessories-929370667915309117::after {
+		content: "You're using Cyanide :D Do /code 1234 to get the Cyanide User role!";
+		font-weight: bold;
+		color: #fff;
+		background-color: #036666;
+		border-radius: 8px;
+		padding: 10px;
+		margin-top: 15px;
+	}
+
+	/* Updated channel names. Modified code by dante_nl#1234, original by Yellowsink#8156 (435026627907420161, 
+	https://canary.discord.com/channels/538759280057122817/755005803303403570/809777956796497920) */
+
+	a[data-list-item-id="channels___929113262488961066"] .name-28HaxV,
+	/* ^ Rules */
+	a[data-list-item-id="channels___929114997425074187"] .name-28HaxV,
+	/* ^ Roles */
+	a[data-list-item-id="channels___928748551671001150"] .name-28HaxV,
+	/* ^ Download themes */
+	a[data-list-item-id="channels___929088182979559454"] .name-28HaxV,
+	/* ^ Updates */
+	a[data-list-item-id="channels___929092111230451783"] .name-28HaxV,
+	/* ^ To do list */
+	a[data-list-item-id="channels___929400043004391434"] .name-28HaxV,
+	/* ^ Announcements */
+	a[data-list-item-id="channels___929128664216535040"] .name-28HaxV,
+	/* ^ General */ 
+	a[data-list-item-id="channels___929129172092190743"] .name-28HaxV,
+	/* ^ Off topic */
+	a[data-list-item-id="channels___929128767048265788"] .name-28HaxV,
+	/* ^ Support */
+	a[data-list-item-id="channels___929400134071111720"] .name-28HaxV,
+	/* ^ [STAFF] Announcements */
+	a[data-list-item-id="channels___929399780499660870"] .name-28HaxV,
+	/* ^ [STAFF] General */
+	a[data-list-item-id="channels___929399845888880691"] .name-28HaxV
+	/* ^ [STAFF] Off topic */
+	{
+		text-indent: -9999px;
+		display: block;
+	}
+
+	a[data-list-item-id="channels___928748551671001150"] .name-28HaxV::after {
+		content: "⟦📲⟧ Download themes";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929088182979559454"] .name-28HaxV::after {
+		content: "⟦🆕⟧ Updates";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929092111230451783"] .name-28HaxV::after {
+		content: "⟦✅⟧ To do list";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929113262488961066"] .name-28HaxV::after {
+		content: "⟦ℹ️⟧ Rules";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929114997425074187"] .name-28HaxV::after {
+		content: "⟦ℹ️⟧ Roles";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929400043004391434"] .name-28HaxV::after {
+		content: "⟦📢⟧ Announcements";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929128664216535040"] .name-28HaxV::after {
+		content: "⟦💬⟧ General";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929128767048265788"] .name-28HaxV::after {
+		content: "⟦💭⟧ Off topic";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929129172092190743"] .name-28HaxV::after {
+		content: "⟦❓⟧ Support";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929400134071111720"] .name-28HaxV::after {
+		content: "⟦🔒📢⟧ [STAFF] Announcements";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929399780499660870"] .name-28HaxV::after {
+		content: "⟦🔒💬⟧ [STAFF] General";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+	a[data-list-item-id="channels___929399845888880691"] .name-28HaxV::after {
+		content: "⟦🔒💭⟧ [STAFF] Off topic";
+		color: var(--channels-default);
+		font-size: 16px;
+		display: block !important;
+		visibility: visible !important;
+		position: absolute;
+		top: 0;
+		left: 9999px;
+	}
+
+		/* Fix hover and active states */
+	.modeUnread-3Cxepe a .name-28HaxV::after,
+	.modeSelected-3DmyhH a .name-28HaxV::after
+	{ color: var(--interactive-active) !important; }
+	.wrapper-NhbLHG:hover a .name-28HaxV::after
+	{ color: var(--interactive-hover); }
+
+	/* Download icon. Combination between code by Burrito#6743 (261236127581601793, 
+	https://canary.discord.com/channels/538759280057122817/755005803303403570/878771893367369828) and
+	kckarnige#7209 (634168893644210186, https://canary.discord.com/channels/538759280057122817/755005803303403570/878677438392057886) */
+
+	[data-list-item-id*="channels___928748551671001150"] .icon-2W8DHg {
+    color: transparent !important;
+	}
+
+	[data-list-item-id*="channels___928748551671001150"] .iconContainer-21RCa3::before {
+		content: " ";
+		/* Also at https://dantenl.tk/img/download-channel.svg (doesn't appear to be working because Netlify) and https://kckarnige.is-a.dev/improved-ui/res/download-chan-icon.svg*/
+    	-webkit-mask: url("https://raw.githubusercontent.com/dante-nl/Cyanide/main/images/download-channel.svg");
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	color: var(--text-muted);
+    	background-color: currentColor;
+    	height: 24px;
+    	width: 24px;
+	}
+
+	/* Checkmark channel icon. Made by dante_nl#1234 and code used from above. */
+	[data-list-item-id*="channels___929092111230451783"] .icon-2W8DHg {
+    color: transparent !important;
+	}
+
+	[data-list-item-id*="channels___929092111230451783"] .iconContainer-21RCa3::before {
+		content: " ";
+    	-webkit-mask: url("https://raw.githubusercontent.com/dante-nl/Cyanide/main/images/Cyanide%20Checkmark%20(Black%2C%20filled).svg");
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	color: var(--text-muted);
+    	background-color: currentColor;
+    	height: 24px;
+    	width: 24px;
+		-webkit-mask-size: contain;
+	}
+
+	/* To do list channel. By Davri#0015 (457579346282938368, https://canary.discord.com/channels/538759280057122817/755015869914152981/929096226870263849) */
+	.chatContent-3KubbW[aria-label^="⟦✅⟧to-do-bykqc"] :is(.header-2jRmjb, .avatar-2e8lTP) {
+    	display: none
+	}
+	.chatContent-3KubbW[aria-label^="⟦✅⟧to-do-bykqc"] .cozyMessage-1DWF9U {
+		min-height: unset;
+		margin-top: unset;
+	}
+
+	.chatContent-3KubbW[aria-label^="⟦✅⟧to-do-bykqc"] .divider-IqmEqJ {
+		display: none;
+	}
+
+	.chatContent-3KubbW[aria-label^="⟦✅⟧to-do-bykqc"] .timestamp-p1Df1m {
+		display: none;
+	}
+
+/* BOT TAGS (You can get one by being a bot.) */
+.theme-dark .botTagRegular-kpctgU { 
+	color: #fff;
+    background: #000;
+	border: 1px solid #14746F;
+}
+
+.theme-light .botTagRegular-kpctgU { 
+	color: #fff;
+    background: #000;
+	border: 1px solid #88D4AB;
+}
+
+/* USER TAGS (You can get one by contributing or  getting one from me, dante_nl. I might do giveaways for them in the future */
+
+/* dante_nl#1234 (618082876730376202) */
+
+	/* Compact mode, dark mode */
+.theme-dark .compact-2Nkcau[data-author-id="618082876730376202"] .username-h_Y3Us::before{
+	content: "CYANIDE CREATOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, dark mode */
+.theme-dark .cozyMessage-1DWF9U[data-author-id="618082876730376202"] .username-h_Y3Us::after {
+	content: "CYANIDE CREATOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Compact mode, light mode */
+.theme-light .compact-2Nkcau[data-author-id="618082876730376202"] .username-h_Y3Us::before{
+	content: "CYANIDE CREATOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, light mode */
+.theme-light .cozyMessage-1DWF9U[data-author-id="618082876730376202"] .username-h_Y3Us::after {
+	content: "CYANIDE CREATOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+/* ѵοіd#0001 (579731384868798464) */
+
+	/* Compact mode, dark mode */
+.theme-dark .compact-2Nkcau[data-author-id="579731384868798464"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, dark mode */
+.theme-dark .cozyMessage-1DWF9U[data-author-id="579731384868798464"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Compact mode, light mode */
+.theme-light .compact-2Nkcau[data-author-id="579731384868798464"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, light mode */
+.theme-light .cozyMessage-1DWF9U[data-author-id="579731384868798464"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+/* Davri#0015 (457579346282938368) */
+
+.theme-dark .compact-2Nkcau[data-author-id="457579346282938368"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, dark mode */
+.theme-dark .cozyMessage-1DWF9U[data-author-id="457579346282938368"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Compact mode, light mode */
+.theme-light .compact-2Nkcau[data-author-id="457579346282938368"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, light mode */
+.theme-light .cozyMessage-1DWF9U[data-author-id="457579346282938368"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+/* Burrito#6743 (261236127581601793) */
+.theme-dark .compact-2Nkcau[data-author-id="261236127581601793"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, dark mode */
+.theme-dark .cozyMessage-1DWF9U[data-author-id="261236127581601793"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Compact mode, light mode */
+.theme-light .compact-2Nkcau[data-author-id="261236127581601793"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, light mode */
+.theme-light .cozyMessage-1DWF9U[data-author-id="261236127581601793"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+/* kckarnige#7209 (634168893644210186) */
+
+.theme-dark .compact-2Nkcau[data-author-id="634168893644210186"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, dark mode */
+.theme-dark .cozyMessage-1DWF9U[data-author-id="634168893644210186"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Compact mode, light mode */
+.theme-light .compact-2Nkcau[data-author-id="634168893644210186"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, light mode */
+.theme-light .cozyMessage-1DWF9U[data-author-id="634168893644210186"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+/* Yellowsink#8156 (435026627907420161) */
+
+.theme-dark .compact-2Nkcau[data-author-id="435026627907420161"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, dark mode */
+.theme-dark .cozyMessage-1DWF9U[data-author-id="435026627907420161"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #14746F;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Compact mode, light mode */
+.theme-light .compact-2Nkcau[data-author-id="435026627907420161"] .username-h_Y3Us::before{
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
+
+	/* Cozy mode, light mode */
+.theme-light .cozyMessage-1DWF9U[data-author-id="435026627907420161"] .username-h_Y3Us::after {
+	content: "CYANIDE CONTRIBUTOR";
+	border: 1px solid #88D4AB;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 1.3;
+    margin-left: 4px;
+	font-size: 10px;
+    font-weight: 500;
+}
